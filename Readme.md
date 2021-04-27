@@ -28,7 +28,7 @@ check them in "/media"
 ```./manip-app```
 
 ### Solution to Question 10:
-Consider the loss function: $$O(u) = 0.5*||x(u)-x'||^2 : R^6 \rightarrow R $$ For a given fixed pin position pair x', there exists at least two different u vectors (shown in the figure) s.t. O(u) = 0. And because O(u) is non-negative, the two u are global minima. So the function is non-convex.
+Consider the loss function: $O(u) = 0.5*||x(u)-x'||^2 : R^6 \rightarrow R $ For a given fixed pin position pair x', there exists at least two different u vectors (shown in the figure) s.t. O(u) = 0. And because O(u) is non-negative, the two u are global minima. So the function is non-convex.
 
 The algorithm to find a solution is gradient descent, which is sensitive to the initial value. So the optimizer tends to find the first solution because of the initial u configuration.
 
