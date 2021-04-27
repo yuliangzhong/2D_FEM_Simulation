@@ -8,12 +8,23 @@ More details, check "tutorials-a4" and "FESA".
 
 ### Demo
 
+check them in "/media"
+
+![fem](https://user-images.githubusercontent.com/39910677/116280919-76c65680-a789-11eb-86a1-dc9a769d5ecc.gif) ![manip](https://user-images.githubusercontent.com/39910677/116280986-880f6300-a789-11eb-8c3c-a229c56db4c5.gif)
+
+
+
+
+
 
 ### How to start
 
 ```git clone```
+
 ```cd 2D_FEM_Simulation/build/src/app```
+
 ```./fem-app```
+
 ```./manip-app```
 
 ### Solution to Question 10:
